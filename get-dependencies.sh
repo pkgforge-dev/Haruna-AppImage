@@ -12,7 +12,8 @@ pacman -Syu --noconfirm \
     lxqt-qtplugin  \
     pipewire-audio \
     pipewire-jack  \
-    qt6ct
+    qt6ct          \
+    yt-dlp
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
