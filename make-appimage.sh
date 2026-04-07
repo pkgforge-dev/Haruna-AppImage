@@ -18,7 +18,7 @@ export DEPLOY_SYS_PYTHON=1
 
 # Deploy dependencies
 if [ "${ARCH}" = x86_64 ]; then
-  quick-sharun /usr/bin/haruna /usr/bin/deno
+  quick-sharun /usr/bin/haruna /usr/bin/bun
 else
   quick-sharun /usr/bin/haruna
 fi
