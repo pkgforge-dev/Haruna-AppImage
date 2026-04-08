@@ -17,11 +17,12 @@ export DEPLOY_PIPEWIRE=1
 export DEPLOY_PYTHON=1
 
 # Deploy dependencies
-if [ "${ARCH}" = x86_64 ]; then
-  quick-sharun /usr/bin/haruna /usr/bin/bun /usr/bin/yt-dlp
-else
-  quick-sharun /usr/bin/haruna /usr/bin/yt-dlp
-fi
+#if [ "${ARCH}" = x86_64 ]; then
+#  quick-sharun /usr/bin/haruna /usr/bin/bun /usr/bin/yt-dlp
+#else
+#  quick-sharun /usr/bin/haruna /usr/bin/yt-dlp
+#fi
+quick-sharun /usr/bin/haruna
 
 # Additional changes can be done in between here
 
